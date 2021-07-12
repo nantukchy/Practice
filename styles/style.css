@@ -1,4 +1,38 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common style */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+
+}
+
+main{
+    display: flex;
+ justify-content: center;
+}
+.Top-container{
+    background: white;
+    width: 870px;
+}
+
+/* top player style */
+
 .Top-Player{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.player img{
+width: 56px;
+height: 56px;
+}
+.player h3{
+
 }
