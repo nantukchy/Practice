@@ -161,3 +161,50 @@ Width: 94.83px;
 Height: 29.38px;
 
 }
+
+/* Media Queries */
+
+/* mobile devices */
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .Top-Player, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .player, .blog, .course{
+        flex-direction: column;
+    }
+    .player img{
+        width: 20%;
+        height: 20%;
+    }
+
+}
+
+/* tablet/ipad */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .Top-Player, .courses{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blog, .course{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .player img{
+        width: 30%;
+        height: 30%;
+    }
+
+
+    
+}
+    
